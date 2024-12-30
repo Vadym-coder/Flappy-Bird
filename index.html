@@ -6,6 +6,16 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<script src="flappy.js" defer></script>
 </head>
-<body>	
+<body>
+	<div class="wrap">
+		<p id="score">Score: </p>
+		<p id="hs">High Score: </p>
+	</div>	
+	<div class="canvas">
+		<canvas id="canvas"></canvas>
+	</div>
+	<div class="pause">
+		<input type="button" class="btn" value="Pause" onclick="game_pause()">
+	</div>
 </body>
 </html>
