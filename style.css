@@ -1,0 +1,38 @@
+#canvas {
+    box-shadow: 20px 10px 10px black;
+}
+
+.wrap, .canvas, .pause {
+    width: 900px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.wrap {
+    justify-content: space-between;
+}
+
+body {
+    background: linear-gradient(to right, blue, yellow);
+    font-size: 35px;
+    color: #fff;
+    font-weight: 900;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.btn {
+    width: 200px;
+    border: none;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: black;
+    font-size: large;
+    font-weight: 900;
+    margin-top: 20px;
+    padding: 10px 0px;
+}
+
+.h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
